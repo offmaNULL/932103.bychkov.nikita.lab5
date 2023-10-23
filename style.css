@@ -1,0 +1,48 @@
+html, body{ margin: 0; width: 100%; }
+
+.btn1, .btn2, .btn3{ text-align: center; }
+
+button:hover{ cursor: pointer; }
+
+.news:hover{ background-color: rgb(248, 94, 94); }
+
+.btn1Txt span, .btn2Txt span, .btn3Txt span{ font-size: 25px; }
+
+p{
+    font-weight: 700;
+    font-size: x-large;
+    margin: 5px}
+
+button{
+    background-color: rgb(0, 196, 0);
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;}    
+
+.list{
+    background-color: rgb(182, 255, 255);
+    width: 50%;
+    margin: 0 auto;}
+
+.news{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid;
+    padding: 10px;}
+
+.btn1Txt, .btn2Txt, .btn3Txt{
+    font-size: 15px;
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    top: 25%;
+    text-align: center;
+    background-color: rgb(255, 255, 93);
+    margin-left: 10%;
+    padding: 10px;}
+
+
+.btn1Txt p, .btn2Txt p, .btn3Txt p{
+    margin-top: 10px;
+    margin-bottom: 40px;}
+
